@@ -1,0 +1,94 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #fff;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+   
+}
+h2{
+    font-size: 2rem;
+}
+p{
+    color: #c2b4b4;
+}
+.container{
+    width: 500px;
+    min-height: 100vh;
+    margin: 2rem auto;  
+    text-align: center;
+   
+}
+
+.sub-title{
+    color:rgb(192, 154, 104)
+}
+.btn-box{
+    width: 10rem;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    margin: .8rem .5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+   
+}
+button a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.btn2{
+    background-color: lightskyblue;
+} 
+
+.btn1:hover, .btn1:focus{
+    background-color: #c2b4b4;
+    color: white; 
+}
+.btn2:hover, .btn2:focus{
+    background-color: #c2b4b4;
+    color: black; 
+}
+
+.navbar{
+    margin: 2rem 0;
+   
+}
+.navbar img{
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.info-section{
+    margin: 1rem auto;
+    text-align: left;
+    padding: 2rem;
+    
+}
+.text-about{
+    margin-bottom: 2rem;  
+}
+.icons{
+    background-color: white;
+    width: 30px;
+    margin-inline: 20px;
+    
+}
+.icons:hover,
+.icons:focus{
+   background-color: lightskyblue;
+}
+
+
+
